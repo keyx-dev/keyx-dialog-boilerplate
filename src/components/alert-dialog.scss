@@ -1,0 +1,58 @@
+/*  */
+
+.alertDialog_7_66 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  opacity: 1;
+}
+/* Children Css */
+
+.alertDialogTrigger_7_34 {
+  opacity: 1;
+}
+
+.alertDialogOverlay_7_37 {
+  position: relative;
+  opacity: 1;
+
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.alertDialogTitle_7_39 {
+  position: relative;
+  height: 1px;
+  align-self: stretch;
+  opacity: 1;
+}
+
+.alertDialogContent_7_38 {
+  position: absolute;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 6px;
+  background: #fff;
+  left: calc(((100% - 563px) / 2) + 149px);
+  top: calc(((100% - 520px) / 2) + 117.5px);
+  opacity: 1;
+
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+  display: grid;
+  max-width: 900px;
+  &:disabled {
+    pointer-events: none;
+  }
+}
+
+.alertDialogPortal_7_36 {
+  position: relative;
+  opacity: 1;
+}

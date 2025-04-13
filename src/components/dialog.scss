@@ -1,0 +1,71 @@
+/*  */
+
+.dialog_1_38 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  opacity: 1;
+}
+/* Children Css */
+
+.dialogTrigger_1_39 {
+  opacity: 1;
+}
+
+.dialogOverlay_1_42 {
+  position: relative;
+  opacity: 1;
+
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.dialogTitle_1_44 {
+  position: relative;
+  height: 1px;
+  align-self: stretch;
+  opacity: 1;
+}
+
+.dialogCloseButton_1_88 {
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  right: 7px;
+  top: 10.5px;
+  border: 1px solid #000;
+  background: #fff;
+  opacity: 1;
+}
+
+.dialogContent_1_43 {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 6px;
+  background: #fff;
+  opacity: 1;
+
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+  display: grid;
+  max-width: 900px;
+  &:disabled {
+    pointer-events: none;
+  }
+}
+
+.dialogPortal_1_41 {
+  position: relative;
+  opacity: 1;
+}
