@@ -7,6 +7,7 @@ export default (phase, { defaultConfig }) => {
   const nextConfig = {
     output: 'export',
     basePath: isDev ? '' : '/keyx-dialog-boilerplate',
+    assetPrefix: isDev ? undefined : '/keyx-dialog-boilerplate',
     images: {
       unoptimized: true,
     },
